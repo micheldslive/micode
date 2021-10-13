@@ -66,13 +66,13 @@ export const AboutIcon = styled.img`
   background-color: var(--black1);
   border-radius: 10px;
   padding: 15px;
-  animation: icon-move 3s ease ${({ delay }) => delay} infinite alternate;
+  animation: move-icon 3s ease ${({ delay }) => delay} infinite alternate;
 
   @media (max-width: 991px) {
     opacity: 0.6;
   }
 
-  @keyframes icon-move {
+  @keyframes move-icon {
     0% {
       transform: translate3d(0, 0, 0);
     }
