@@ -2,7 +2,7 @@
   📰 Meu Portfólio
 </h1>
 
-![Resultado do projeto](assets/image/prev.jpg)
+![Resultado do projeto](assets/images/prev.jpg)
 
 <h4 align="center"><a href="https://mi-code.vercel.app/">Clique aqui para ver o projeto</a></h4>
 
