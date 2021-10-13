@@ -3,6 +3,8 @@ import Gamalearning from "assets/images/gamalearning.jpg";
 import CascaGrossa from "assets/images/cascagrossa.jpg";
 import Workpoint from "assets/images/workpoint.jpg";
 
+export { Nubank, Gamalearning, CascaGrossa, Workpoint };
+
 export const projects = [
   {
     id: 1,

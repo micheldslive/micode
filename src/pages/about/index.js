@@ -11,8 +11,28 @@ import {
   AboutTextContent,
 } from "assets/styles/about";
 import { Html, Css, Js, Sass, React, PHP, Node } from "services/skills";
+import { Nubank, Gamalearning, CascaGrossa, Workpoint } from "services/projects";
 
 export default class About extends Component {
+  componentDidMount() {
+    const imageList = [
+      Html,
+      Css,
+      Js,
+      Sass,
+      React,
+      PHP,
+      Node,
+      Nubank,
+      Gamalearning,
+      CascaGrossa,
+      Workpoint,
+    ];
+    imageList.forEach((image) => {
+      new Image().src = image;
+    });
+  }
+
   render() {
     return (
       <AboutContent>
