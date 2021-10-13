@@ -2,11 +2,11 @@
   📰 Meu Portfólio
 </h1>
 
-![Resultado do projeto](assets/image/prev.jpg)
+![Resultado do projeto](src/assets/images/prev.jpg)
 
 <h4 align="center"><a href="https://mi-code.vercel.app/">Clique aqui para ver o projeto</a></h4>
 
-## 📚 Seções
+## 📌 Seções
 Site composto por 3 seções:
 
 - **Quem sou:** Descrição falando um pouco sobre quem sou;
@@ -15,7 +15,7 @@ Site composto por 3 seções:
 
 ---
 
-## 💼 Tecnologia utilizada
+## 🚀 Tecnologia utilizada
 ReactJS + dependências que auxiliaram o desenvolvimento.
 
 ---
