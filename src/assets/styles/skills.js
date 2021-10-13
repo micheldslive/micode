@@ -1,8 +1,5 @@
 import { Col, Row } from "react-bootstrap";
 import styled from "styled-components";
-import TechSVG from "assets/images/technologies.svg";
-
-export { TechSVG };
 
 export const SkillsContent = styled.section`
   position: absolute;

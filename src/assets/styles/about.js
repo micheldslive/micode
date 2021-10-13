@@ -32,7 +32,10 @@ export const AboutRow = styled(Row)`
 export const AboutCol = styled(Col)`
   padding: 0;
   text-align: ${({ align }) => align};
+  z-index: ${({ index }) => index};
 `;
+
+export const AboutTextContent = styled.div``;
 
 export const AboutTitle = styled.h1`
   padding-bottom: 20px;
@@ -44,11 +47,37 @@ export const AboutSpan = styled.span`
 
 export const AboutText = styled.p``;
 
-export const AboutImage = styled.img`
-  width: 60%;
-  margin: 0 auto;
+export const AboutIconContainer = styled.div`
+  min-height: 400px;
+  position: relative;
+  z-index: 0;
 
   @media (max-width: 991px) {
-    display: none;
+    margin-top: -300px;
+  }
+`;
+
+export const AboutIcon = styled.img`
+  width: ${({ width }) => width};
+  margin: 0 auto;
+  position: absolute;
+  top: ${({ top }) => top};
+  right: ${({ right }) => right};
+  background-color: var(--black1);
+  border-radius: 10px;
+  padding: 15px;
+  animation: icon-move 3s ease ${({ delay }) => delay} infinite alternate;
+
+  @media (max-width: 991px) {
+    opacity: 0.6;
+  }
+
+  @keyframes icon-move {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(10px, -40px, 0);
+    }
   }
 `;

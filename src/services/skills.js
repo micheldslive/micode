@@ -4,6 +4,9 @@ import Js from "assets/images/icon-js.svg";
 import Sass from "assets/images/icon-sass.svg";
 import React from "assets/images/icon-react.svg";
 import PHP from "assets/images/icon-php.svg";
+import Node from "assets/images/icon-node.svg";
+
+export { Html, Css, Js, Sass, React, PHP, Node };
 
 export const skills = [
   {

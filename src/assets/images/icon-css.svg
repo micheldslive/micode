@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-59 -74 180 200" style="enable-background:new -59 -74 180 200;" xml:space="preserve">
+	 viewBox="25 -35 180 200" style="enable-background:new 25 -35 180 200;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FEFBFB;}
-	.st1{fill:#30BE00;}
+	.st0{fill:#30BE00;}
 </style>
-<rect x="-37" y="-56" class="st0" width="130" height="145"/>
-<path class="st1" d="M-59-74l16.4,176.7L31,126l73.6-23.3L121-74H-59z M87.8-38.3l-2.3,21.1l-54.2,22h52.3l-6,65.5l-46,12.8
-	l-46.3-13l-3-33H5.2l1.5,17.1l24.7,5.9L57,53.3l1.7-27.5l-78-0.2L-21,4.9l55.6-22H-23l-2.7-21.1L87.8-38.3z"/>
+<path class="st0" d="M25-35l16.4,176.7L115,165l73.6-23.3L205-35H25z M171.8,0.7l-2.3,21.1l-54.2,22h52.3l-6,65.5l-46,12.8l-46.3-13
+	l-3-33h22.9l1.5,17.1l24.7,5.9l25.6-6.8l1.7-27.5l-78-0.2L63,43.9l55.6-22H61L58.3,0.8L171.8,0.7z"/>
 </svg>
