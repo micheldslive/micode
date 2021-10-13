@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   --gray3: #ccc;
   --green: #30be00;
   --black: #141414;
-  --black1: #17161d;
+  --black1: #191919;
   --black2: #a2a2a2;
 }
 
