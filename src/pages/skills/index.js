@@ -1,6 +1,7 @@
 import { Component } from "react";
 import moment from "moment";
 import Moment from "react-moment";
+import { Helmet } from "react-helmet-async";
 import { skills } from "services/skills";
 import {
   SkillsContent,
@@ -33,43 +34,49 @@ export default class Skills extends Component {
     const dateVal = date !== "" ? moment(new Date()).diff(date, 'years') : "";
     const type = dateVal !== 0 ? "years" : "month";
     return (
-      <SkillsContent>
-        <SkillsRow>
-          <SkillsCol lg={6} sm={12}>
-            <SkillsTitle>
-              <SkillsSpan>{"<"}</SkillsSpan>Skills<SkillsSpan>{">"}</SkillsSpan>
-            </SkillsTitle>
-            <SkillsText>{content}</SkillsText>
-            {date !== ""
-             ?
-                <SkillsText>
-                  <Moment diff={date} unit={type}>{new Date()}</Moment>
-                  {dateVal !== 0 ? " ano(s) de experiência" : " meses de experiência"}
-                </SkillsText>
-             : 
-              "Clique no card para saber mais..."
-            }
-          </SkillsCol>
-          <SkillsCol lg={6} sm={12}>
-            <SkillsRow>
-              {skills.map((skill) => (
-                <SkillsCol lg={4} sm={4} xs={4} key={skill.id}>
-                  <SkillsCardLink onClick={() => this.handleClick(skill.id, skill.text, skill.date) }>
-                    <SkillsCardContent>
-                      <SkillsCard  className={skill.id === activeLink ? " selected" : ""}>
-                        <SkillsInfos>
-                          <SkillsCardImg src={skill.icon} />
-                          <SkillsName>{skill.name}</SkillsName>
-                        </SkillsInfos>
-                      </SkillsCard>
-                    </SkillsCardContent>
-                  </SkillsCardLink>
-                </SkillsCol>
-              ))}
-            </SkillsRow>
-          </SkillsCol>
-        </SkillsRow>
-      </SkillsContent>
+      <>
+        <Helmet>
+        <title>Michel Domingos - Skills</title>
+        <meta name="description" content="Michel Domingos Skills."/>
+        </Helmet>
+        <SkillsContent>
+          <SkillsRow>
+            <SkillsCol lg={6} sm={12}>
+              <SkillsTitle>
+                <SkillsSpan>{"<"}</SkillsSpan>Skills<SkillsSpan>{">"}</SkillsSpan>
+              </SkillsTitle>
+              <SkillsText>{content}</SkillsText>
+              {date !== ""
+              ?
+                  <SkillsText>
+                    <Moment diff={date} unit={type}>{new Date()}</Moment>
+                    {dateVal !== 0 ? " ano(s) de experiência" : " meses de experiência"}
+                  </SkillsText>
+              : 
+                "Clique no card para saber mais..."
+              }
+            </SkillsCol>
+            <SkillsCol lg={6} sm={12}>
+              <SkillsRow>
+                {skills.map((skill) => (
+                  <SkillsCol lg={4} sm={4} xs={4} key={skill.id}>
+                    <SkillsCardLink onClick={() => this.handleClick(skill.id, skill.text, skill.date) }>
+                      <SkillsCardContent>
+                        <SkillsCard  className={skill.id === activeLink ? " selected" : ""}>
+                          <SkillsInfos>
+                            <SkillsCardImg src={skill.icon} />
+                            <SkillsName>{skill.name}</SkillsName>
+                          </SkillsInfos>
+                        </SkillsCard>
+                      </SkillsCardContent>
+                    </SkillsCardLink>
+                  </SkillsCol>
+                ))}
+              </SkillsRow>
+            </SkillsCol>
+          </SkillsRow>
+        </SkillsContent>
+      </>
     );
   }
 }
