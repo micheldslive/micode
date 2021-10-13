@@ -26,7 +26,7 @@ export default class About extends Component {
               bastante autodidaticamente para aprender novas tecnologias.
             </AboutText>
             <AboutText>
-              Iniciei no DevWorld com PHP em meados de 2015, e desde então sigo
+              Iniciei no DevWorld com PHP em meados de 2016, e desde então sigo
               nessa estrada como Desenvolvedor. No início desse ano, comecei a
               programar com JavaScript, e surgiu a paixão por essa linguagem e
               seus Frameworks. Desde então venho dedicando todo meu tempo livre
