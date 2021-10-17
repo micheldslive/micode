@@ -42,7 +42,7 @@ export default class Projects extends Component {
               </ProjectsTitle>
               <ProjectsText>{content}</ProjectsText>
               {link !== ""
-              ? <ProjectLink href={link} target="_blank">{link}</ProjectLink>
+              ? <ProjectsText><ProjectLink href={link} target="_blank">{link}</ProjectLink></ProjectsText>
               : <ProjectsText>Clique no card para acessar...</ProjectsText>}
             </ProjectsCol>
             <ProjectsCol lg={12} sm={12}>
