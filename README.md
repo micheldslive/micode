@@ -24,7 +24,7 @@ ReactJS + dependências que auxiliaram o desenvolvimento.
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/iuricode">
+      <a href="https://github.com/micheldslive">
         <img src="https://avatars.githubusercontent.com/u/55795597?v=4" width="100" alt="Foto no GitHub"/><br>
         <sub>
           <b>Michel Domingos</b>
