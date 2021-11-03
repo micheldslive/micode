@@ -29,8 +29,8 @@ export const ProjectsRow = styled(Row)`
 
 export const ProjectsCol = styled(Col)`
   padding: 0;
-  margin-bottom: 20px;
-  margin: 0 auto;
+  margin: ${({ auto }) => auto};
+  margin-bottom: ${({ bottom }) => bottom};
   max-width: ${({ width }) => width};
 `;
 

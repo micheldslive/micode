@@ -36,7 +36,7 @@ export default class Projects extends Component {
         </Helmet>
         <ProjectsContent>
           <ProjectsRow>
-            <ProjectsCol lg={12} sm={12} width="700px">
+            <ProjectsCol lg={12} sm={12} width="700px" auto="0 auto">
               <ProjectsTitle>
                 <ProjectsSpan>{"<"}</ProjectsSpan>Projetos Github<ProjectsSpan>{">"}</ProjectsSpan>
               </ProjectsTitle>
@@ -48,7 +48,7 @@ export default class Projects extends Component {
             <ProjectsCol lg={12} sm={12}>
               <ProjectsRow>
                 {projects.map((project) => 
-                  <ProjectsCol lg={3} sm={3} xs={6} key={project.id}>
+                  <ProjectsCol lg={3} sm={3} xs={6} key={project.id} bottom="15px">
                     <ProjectsCardLink
                       onClick={() => this.handleClick(project.id, project.text, project.href) } >
                       <ProjectsCardContent>

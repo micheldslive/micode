@@ -56,11 +56,11 @@ export default class About extends Component {
                   tecnologias.
                 </AboutText>
                 <AboutText>
-                  Iniciei no DevWorld com PHP em meados de 2016, e desde então
-                  sigo nessa estrada como Desenvolvedor. No início desse ano,
-                  comecei a programar com JavaScript, e surgiu a paixão por essa
-                  linguagem e seus Frameworks. Desde então venho dedicando todo
-                  meu tempo livre estudando ao máximo!.
+                  Iniciei no DevWorld com PHP em meados de 2016, e sigo nessa
+                  estrada como Desenvolvedor. No início desse ano, comecei a
+                  programar com JavaScript, e surgiu a paixão por essa linguagem
+                  e seus Frameworks. Desde então venho dedicando todo meu tempo
+                  livre estudando ao máximo!.
                 </AboutText>
               </AboutTextContent>
             </AboutCol>
