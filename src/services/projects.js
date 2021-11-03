@@ -5,7 +5,7 @@ import CascaGrossa from "assets/images/cascagrossa.jpg";
 import Workpoint from "assets/images/workpoint.jpg";
 import Venom from "assets/images/venom.jpg";
 
-export { Nubank, Gamalearning, CascaGrossa, Workpoint, Venom };
+export { Nubank, Gamalearning, CascaGrossa, Workpoint, Venom, Netflix };
 
 export const projects = [
   {

@@ -12,7 +12,7 @@ import {
   AboutTextContent,
 } from "assets/styles/about";
 import { Html, Css, Js, Sass, React, PHP, Node } from "services/skills";
-import { Nubank, Gamalearning, CascaGrossa, Workpoint } from "services/projects";
+import { Nubank, Gamalearning, CascaGrossa, Workpoint, Netflix } from "services/projects";
 
 export default class About extends Component {
   componentDidMount() {
@@ -28,6 +28,7 @@ export default class About extends Component {
       Gamalearning,
       CascaGrossa,
       Workpoint,
+      Netflix
     ];
     imageList.forEach((image) => {
       new Image().src = image;
