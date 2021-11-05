@@ -8,9 +8,10 @@
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-seções">Seções</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-executando-o-projeto">Executando o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-professor(a)">Desenvolvedor</a>
+  <a href="#-desenvolvedor">Desenvolvedor</a>
 </p>
 
 <p align="center">
@@ -23,7 +24,7 @@
 
 ---
 
-## :computer: Projeto
+## 💻 Projeto
 ![Resultado do projeto](src/assets/images/prev.jpg)
 
 <h4 align="center"><a href="https://mi-code.vercel.app/">Clique aqui para ver o projeto</a></h4>
@@ -39,7 +40,7 @@ Site composto por 3 seções:
 
 ---
 
-## :rocket: Tecnologias utilizadas
+## 🚀 Tecnologias utilizadas
 Esse projeto foi desenvolvido com a seguinte tecnologia e suas dependencias:
 
 - ReactJS
@@ -50,7 +51,7 @@ Esse projeto foi desenvolvido com a seguinte tecnologia e suas dependencias:
     - react-transition-group
     - styled-components
 
-## :arrow_forward: Executando o projeto
+## ▶️ Executando o projeto
 
 #### Clone o repositório usando o seguinte comando ou baixe
 
