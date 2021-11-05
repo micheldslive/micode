@@ -21,10 +21,14 @@
   <img alt="Portfolio" src="https://img.shields.io/static/v1?label=portfolio&message=MICODE&color=success&labelColor=grey">
 </p>
 
+---
+
 ## :computer: Projeto
 ![Resultado do projeto](src/assets/images/prev.jpg)
 
 <h4 align="center"><a href="https://mi-code.vercel.app/">Clique aqui para ver o projeto</a></h4>
+
+---
 
 ## 📌 Seções
 Site composto por 3 seções:
@@ -38,13 +42,13 @@ Site composto por 3 seções:
 ## :rocket: Tecnologias utilizadas
 Esse projeto foi desenvolvido com a seguinte tecnologia e suas dependencias:
 
---ReactJS
-    --react-bootstrap
-    --react-helmet-async
-    --react-moment
-    --react-router-dom
-    --react-transition-group
-    --styled-components
+- ReactJS
+    - react-bootstrap
+    - react-helmet-async
+    - react-moment
+    - react-router-dom
+    - react-transition-group
+    - styled-components
 
 ## :arrow_forward: Executando o projeto
 
@@ -73,6 +77,8 @@ yarn build
 ```
 
 O servidor estará disponível no http://127.0.0.1:3000 em seu navegador
+
+---
 
 ## 💘 Desenvolvedor<br>
 <table>
