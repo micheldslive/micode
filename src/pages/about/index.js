@@ -12,7 +12,13 @@ import {
   AboutTextContent,
 } from "assets/styles/about";
 import { Html, Css, Js, Sass, React, PHP, Node } from "services/skills";
-import { Nubank, Gamalearning, CascaGrossa, Workpoint, Netflix } from "services/projects";
+import {
+  Nubank,
+  Gamalearning,
+  CascaGrossa,
+  Workpoint,
+  Netflix,
+} from "services/projects";
 
 export default class About extends Component {
   componentDidMount() {
@@ -28,7 +34,7 @@ export default class About extends Component {
       Gamalearning,
       CascaGrossa,
       Workpoint,
-      Netflix
+      Netflix,
     ];
     imageList.forEach((image) => {
       new Image().src = image;
@@ -39,29 +45,27 @@ export default class About extends Component {
     return (
       <>
         <Helmet>
-        <title>Michel Domingos - Quem sou</title>
-        <meta name="description" content="Michel Domingos About."/>
+          <title>Michel Domingos - Quem sou</title>
+          <meta name="description" content="Michel Domingos About." />
         </Helmet>
         <AboutContent>
           <AboutRow>
             <AboutCol lg={6} sm={12} index="1">
               <AboutTextContent>
                 <AboutTitle>
-                  <AboutSpan>{"<"}</AboutSpan>Quem Sou<AboutSpan>{">"}</AboutSpan>
+                  <AboutSpan>{"<"}</AboutSpan>Quem Sou
+                  <AboutSpan>{">"}</AboutSpan>
                 </AboutTitle>
                 <AboutText>
-                  Meu nome é Michel, 32 anos, moro em Recife-PE, Dev / Design
-                  Gráfico nas horas vagas. Atualmente cursando o Gama Experience
-                  da Gama Academy para Desenvolvimento Fullstack, e também
-                  estudando bastante autodidaticamente para aprender novas
-                  tecnologias.
+                  Olá, Meu nome é Michel, 33 anos, de Recife-PE.
                 </AboutText>
                 <AboutText>
-                  Iniciei no DevWorld com PHP em meados de 2016, e sigo nessa
-                  estrada como Desenvolvedor. No início desse ano, comecei a
-                  programar com JavaScript, e surgiu a paixão por essa linguagem
-                  e seus Frameworks. Desde então venho dedicando todo meu tempo
-                  livre estudando ao máximo!.
+                  Iniciei no DevWorld com PHP em 2016, e desde esse ano sigo
+                  nessa estrada como Desenvolvedor. No início de 2021, comecei a
+                  trabalhar com Javascript, então surgiu a paixão por essa
+                  linguagem e seus Frameworks. Meu foco é Desenvolvimento
+                  Front-end, mas também possuo uma ótima experiência com
+                  Desenvolvimento Back-end.
                 </AboutText>
               </AboutTextContent>
             </AboutCol>
